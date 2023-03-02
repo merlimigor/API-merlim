@@ -1,0 +1,201 @@
+.app{
+}
+
+.App-header {
+  z-index: 100;
+  background-color: #474537;
+  background-image: linear-gradient(180deg, #474537 34%, #222423 78%);  
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add{
+  background-color: #ffff;
+  color: black;
+  font-size: 50px;
+  font-weight: 600;
+  position: fixed;
+  z-index: 10000;
+  bottom: 20%;
+  left: 85%;
+  border-radius: 100%;
+  border: solid 3px rgb(74, 56, 56);
+  padding: 5px 20px;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 75%);
+}
+
+.none {
+  z-index: 150;
+  position: fixed;
+  margin: 200px 340px;
+  backdrop-filter: blur(7px) saturate(0%);
+  -webkit-backdrop-filter: blur(7px) saturate(0%);
+  background-color: rgba(255, 255, 255, 0.69);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  padding: 40px 100px;
+  box-shadow: 0px 0px 1000px 1000px rgb(0 0 0 / 75%);
+  margin-bottom: 45rem;
+  
+}
+
+.dados {
+  display: flex;
+  top: 100px;
+  right: 20px;
+  position: relative;
+}
+
+.dados2 {
+  
+
+}
+
+.dados2 input{
+  margin: 10px 0;
+
+}
+
+.dados input {
+  margin: 10px 0;
+}
+
+.dados p {
+  position: relative;
+  bottom: 100px;
+  left: 50px;
+}
+
+.incluir{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.btn-dell{
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fafafa;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 40px;
+  background-color: #263238;
+  box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 75%);
+
+}
+
+.btn-add{
+  cursor: pointer;
+  color: #fafafa;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 40px;
+  background-color: #263238;
+  box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 75%);
+
+}
+
+.btn-alt{
+  cursor: pointer;
+  color: #fafafa;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 40px;
+  background-color: #263238;
+  box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 75%);
+
+}
+
+.borda{
+  border: 1px solid grey;
+  position: relative;
+  left: 20px;
+  bottom: 90px;
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.dell{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+.image{
+  width: 7%;
+
+}
+
+.s_hero {
+  background-image: url(/src/nerd.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  max-height: 1000px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lista {
+  z-index: 100;
+  backdrop-filter: blur(2px) saturate(0%);
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  height: 1000px;
+  max-width: 50rem;
+  width: 100%;
+}
+
+.produtos { 
+  
+}
+
+.nome-produto {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1.7rem 1rem;
+  font-size: 15px;
+  margin-left: 30px;
+  
+}
+
+.nome-produto div{
+  background-color: #222423;
+  box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 75%);
+  color: #fafafa;
+  border-radius: 7px;
+}
+
+.nome-produto ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0;
+  margin: 1px 5px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.lista img {
+  margin-top: 10px;
+  max-width: 100px;
+  box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 75%);
+
+}
+
+.nome-produto button {
+  margin: 2px 2px;
+  border-radius: 7px;
+  color: #ffffff;
+  background-color: #222423;
+  cursor: pointer;
+
+}
